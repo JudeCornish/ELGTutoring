@@ -745,3 +745,63 @@ footer h2 {
 .footer-container {
 	background-color: rgb(50, 50, 50);
 }
+
+.contact {
+	opacity: 0;
+	transform: translateY(4rem);
+	transition: 1s ease-in-out;
+}
+
+.contact.is-visible {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	transform: translateY(0rem);
+}
+
+.overview {
+	opacity: 0;
+	transform: translateY(4rem);
+	transition: 1s ease-in-out;
+}
+
+.overview.is-visible {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	transform: translateY(0rem);
+}
+
+.is-this {
+	opacity: 0;
+	transform: translateY(4rem);
+	transition: 1s ease-in-out;
+}
+
+.is-this.is-visible {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	transform: translateY(0rem);
+}
+
+.pricing {
+	opacity: 0;
+	transform: translateY(4rem);
+	transition: 1s ease-in-out;
+}
+
+.pricing.is-visible {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	transform: translateY(0rem);
+}
+
+.testimonials {
+	opacity: 0;
+	transform: translateY(4rem);
+	transition: 1s ease-in-out;
+}
+
+.testimonials.is-visible {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	transform: translateY(0rem);
+}
