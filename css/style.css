@@ -575,7 +575,7 @@ h4 {
 
 @media screen and (max-width: 800px) {
 	.testimonials {
-		width: 100%;
+		width: 90%;
 	}
 
 	.testimonials-inner {
