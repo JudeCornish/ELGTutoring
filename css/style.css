@@ -703,8 +703,8 @@ footer h2 {
 
 .footer-3 {
 	display: flex;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
+	padding-top: 6vh;
+	padding-bottom: 6vh;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
