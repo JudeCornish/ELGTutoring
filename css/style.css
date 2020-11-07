@@ -619,14 +619,29 @@ h4 {
 	margin-top: 5vh;
 }
 
+.contact p {
+	text-align: center;
+}
+
+.careers {
+	text-align: center;
+	margin-top: 5vh;
+}
+
+.careers p {
+	text-align: center;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media screen and (max-width: 880px) {
 	.contact {
 		margin-top: 10vh;
 	}
-}
-
-.contact p {
-	text-align: center;
+	.careers {
+		margin-top: 8vh;
+	}
 }
 
 footer {
@@ -688,6 +703,14 @@ footer h2 {
 	margin-bottom: 1vh;
 }
 
+.footer-2 {
+	font-weight: 200;
+}
+
+.footer-2 p {
+	margin-bottom: 1vh;
+}
+
 .footer-bottom {
 	height: 5vh;
 	line-height: 5vh;
@@ -696,9 +719,17 @@ footer h2 {
 	font-size: 90%;
 	font-weight: 100;
 }
+.footer-bottom-2 {
+	height: 5vh;
+	line-height: 5vh;
+	background-color: rgb(51, 51, 51);
+	text-align: center;
+	font-size: 90%;
+	font-weight: 100;
+}
 
 .footer-bottom a {
-	color: white;
+	color: rgb(176, 217, 236);
 	transition: 0.25s ease-in-out;
 }
 
@@ -711,10 +742,19 @@ footer h2 {
 	margin-bottom: 0vh;
 }
 
-.footer-3 {
+.footer-2 {
 	display: flex;
 	padding-top: 6vh;
 	padding-bottom: 6vh;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.footer-3 {
+	display: flex;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
 	flex-direction: column;
 	justify-content: space-around;
 	text-align: center;
