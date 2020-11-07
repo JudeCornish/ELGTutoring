@@ -89,7 +89,7 @@ p {
 
 .nav-links li {
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 10px;
 }
 
 .nav-links li a {
@@ -332,7 +332,7 @@ h4 {
 	margin: 0 auto;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
 	.nav-links {
 		display: none;
 	}
@@ -796,6 +796,18 @@ footer h2 {
 }
 
 .contact.is-visible {
+	opacity: 1;
+	transition: 1s ease-in-out;
+	transform: translateY(0rem);
+}
+
+.careers {
+	opacity: 0;
+	transform: translateY(4rem);
+	transition: 1s ease-in-out;
+}
+
+.careers.is-visible {
 	opacity: 1;
 	transition: 1s ease-in-out;
 	transform: translateY(0rem);
