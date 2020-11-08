@@ -867,7 +867,7 @@ footer h2 {
 
 .media-fixed {
 	position: fixed;
-	top: 15vh;
+	top: 18vh;
 	transform: translateY(-50%);
 	right: 15px;
 	line-height: 2;
